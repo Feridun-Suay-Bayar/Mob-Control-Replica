@@ -11,13 +11,13 @@ C:\Program Files\Unity 2021.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Suay/Documents/GitHub/Mob Control Clone
+C:/Users/Suay/Documents/GitHub/Mob-Control-Replica/Mob Control Clone
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61578
-Successfully changed project path to: C:/Users/Suay/Documents/GitHub/Mob Control Clone
-C:/Users/Suay/Documents/GitHub/Mob Control Clone
+61618
+Successfully changed project path to: C:/Users/Suay/Documents/GitHub/Mob-Control-Replica/Mob Control Clone
+C:/Users/Suay/Documents/GitHub/Mob-Control-Replica/Mob Control Clone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/Suay/Documents/GitHub/Mob Control Clone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 53.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Suay/Documents/GitHub/Mob Control Clone/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Suay/Documents/GitHub/Mob-Control-Replica/Mob Control Clone/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002388 seconds.
+Registered in 0.002288 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 56.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.451 seconds
+- Completed reload, in  0.426 seconds
 Domain Reload Profiling:
-	ReloadAssembly (451ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (427ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (324ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (305ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (184ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
+				RefreshPlugins (52ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003600 seconds.
+Registered in 0.003537 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Suay\Documents\GitHub\Mob Control Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Suay\Documents\GitHub\Mob Control Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suay\Documents\GitHub\Mob-Control-Replica\Mob Control Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suay\Documents\GitHub\Mob-Control-Replica\Mob Control Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.702 seconds
+- Completed reload, in  0.677 seconds
 Domain Reload Profiling:
-	ReloadAssembly (703ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (678ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (553ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3839.
-Memory consumption went from 118.2 MB to 118.1 MB.
-Total: 2.261600 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.083700 ms MarkObjects: 1.917900 ms  DeleteObjects: 0.079700 ms)
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.7 KB). Loaded Objects now: 3842.
+Memory consumption went from 118.3 MB to 118.2 MB.
+Total: 2.235700 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.907000 ms  DeleteObjects: 0.081200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,125 +163,101 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 501443.038303 seconds.
-  path: Assets/AurynSky/Forest Pack
-  artifactKey: Guid(cd17a9aac62b8664097a85304ddcee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack using Guid(cd17a9aac62b8664097a85304ddcee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772cf852801bf0be7a6ef3d9c8e649ee') in 0.009855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.611357 seconds.
-  path: Assets/AurynSky/Forest Pack/Scripts
-  artifactKey: Guid(63112726efe1fb244be32ec87d43d2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Scripts using Guid(63112726efe1fb244be32ec87d43d2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2504cc0827a52d7ba077b495f1d153d8') in 0.019466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.936171 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs
-  artifactKey: Guid(2d818acaa4627844481af6377833e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs using Guid(2d818acaa4627844481af6377833e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea75b01763f070650e2347d71e5b98bd') in 0.007716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.085619 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/Fire.prefab
-  artifactKey: Guid(f584b4d5076829f4799f9d4dcf6de929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/Fire.prefab using Guid(f584b4d5076829f4799f9d4dcf6de929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0468172cdc761eca35746b6d4e1a876d') in 0.191229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestBlock01.prefab
-  artifactKey: Guid(89843090f5c38c24c9500fe9490ba5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestBlock01.prefab using Guid(89843090f5c38c24c9500fe9490ba5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e9b491c41b5744c54868b764773d46') in 0.105843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestBridgeRegular.prefab
-  artifactKey: Guid(38fa18ea33367784c891567389fdfb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestBridgeRegular.prefab using Guid(38fa18ea33367784c891567389fdfb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4169c100042e5589b519722905e952d4') in 0.042314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/WaterFall.prefab
-  artifactKey: Guid(a27d6e7d56bdc84479be345a168e6c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/WaterFall.prefab using Guid(a27d6e7d56bdc84479be345a168e6c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411e2336078557d9b286e36976549372') in 0.028441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestGrass02.prefab
-  artifactKey: Guid(4c9f6adf60a275840b716082e3482212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestGrass02.prefab using Guid(4c9f6adf60a275840b716082e3482212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20a1bea6ffc34693685b8b122bd8af4') in 0.034416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestTreePineShort.prefab
-  artifactKey: Guid(45fe3ec28eac2064d985117cf812ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestTreePineShort.prefab using Guid(45fe3ec28eac2064d985117cf812ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c3ab1a1958f52e6d043514ab64fade') in 0.019379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestBridgeWide.prefab
-  artifactKey: Guid(ba7e7b47e14ac404fbe09194158fbf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestBridgeWide.prefab using Guid(ba7e7b47e14ac404fbe09194158fbf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3130f5a5faf2a02d0ec026450ad168c7') in 0.019930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestGround01.prefab
-  artifactKey: Guid(1d9cc67243350f643b8c562ed0503c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestGround01.prefab using Guid(1d9cc67243350f643b8c562ed0503c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b47d70642e505bde8b6e3053fd54ca2') in 0.017369 seconds 
+  Time since last request: 608233.928235 seconds.
+  path: Assets/GameFolders/Prefabs/FriendMob.prefab
+  artifactKey: Guid(8e692fabd9b21c542959a0a55a643f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Prefabs/FriendMob.prefab using Guid(8e692fabd9b21c542959a0a55a643f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93bde13c6d616961993a892feac673f') in 0.146208 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/WaterPixiesSolo.prefab
-  artifactKey: Guid(4d1a1b8720d1bc3438a87ab19ed6593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/WaterPixiesSolo.prefab using Guid(4d1a1b8720d1bc3438a87ab19ed6593a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ba58620767997ca76ac8f26a4e81b2') in 0.038535 seconds 
+  path: Assets/GameFolders/Prefabs/Player.prefab
+  artifactKey: Guid(1c00be13450a4d34fa52ca9f42e59c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Prefabs/Player.prefab using Guid(1c00be13450a4d34fa52ca9f42e59c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9a9738851415408602ffad78f45ddd') in 0.020538 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/WaterQuadSolo.prefab
-  artifactKey: Guid(45a2654ed7e50b945bbbf5ab0a76e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/WaterQuadSolo.prefab using Guid(45a2654ed7e50b945bbbf5ab0a76e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0990a5d8f256782ee20bb0cf5221ac84') in 0.116630 seconds 
+  Time since last request: 93.221756 seconds.
+  path: Assets/GameFolders/Scripts/Concretes/Controller/MobController.cs
+  artifactKey: Guid(40a90ab94f3fcd844ac953c0097ecbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Scripts/Concretes/Controller/MobController.cs using Guid(40a90ab94f3fcd844ac953c0097ecbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1111be4f0c498d0b2c7ef683e6d645d5') in 0.016623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestTreeAppleShort.prefab
-  artifactKey: Guid(f4f82206765cef54ca8f19ce34136e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestTreeAppleShort.prefab using Guid(f4f82206765cef54ca8f19ce34136e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dc8fff5a0133b9c2a68dd5162a3bc5') in 0.019590 seconds 
+  Time since last request: 1.724190 seconds.
+  path: Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs
+  artifactKey: Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs using Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22632255106a5ffa89d93d02eec792d') in 0.008940 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestTreeDShort.prefab
-  artifactKey: Guid(018e38b65bc9fb048a9c4271cdad70c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestTreeDShort.prefab using Guid(018e38b65bc9fb048a9c4271cdad70c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24216f29de897420830e67e76d62ac9') in 0.021181 seconds 
+  Time since last request: 68.408990 seconds.
+  path: Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs
+  artifactKey: Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs using Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364b667b06d928fc7f279125e70c2057') in 0.003194 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestCastleWindow.prefab
-  artifactKey: Guid(fb44b6ca36ace2c46b5dd7d4bf32e371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestCastleWindow.prefab using Guid(fb44b6ca36ace2c46b5dd7d4bf32e371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528e16db0d43751bdf97018835d89266') in 0.020097 seconds 
+  Time since last request: 40.223676 seconds.
+  path: Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs
+  artifactKey: Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs using Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c83fdc5f681e3018b21cb82d74c94af') in 0.002070 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestTreePineTall2.prefab
-  artifactKey: Guid(bb8b831afcc06c64f9df984b2ccb8642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestTreePineTall2.prefab using Guid(bb8b831afcc06c64f9df984b2ccb8642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1b308cfce7ed59cb3564abdee0e882') in 0.017925 seconds 
+  Time since last request: 16.728167 seconds.
+  path: Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs
+  artifactKey: Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs using Guid(144d363cc143576448aa33d57753f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c8d42fe0dda3afaa08a973cfb885c9') in 0.003262 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/ForestLadder.prefab
-  artifactKey: Guid(8d102e899c856934a9f58af9c7508d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestLadder.prefab using Guid(8d102e899c856934a9f58af9c7508d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8a917dbd2f229b9f9009cd8c351209') in 0.019600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.568411 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestCastle_Red.prefab
-  artifactKey: Guid(fb6e45a6010fdae4b91b4ccbac21425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestCastle_Red.prefab using Guid(fb6e45a6010fdae4b91b4ccbac21425e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b050804fa7009a81523b0a25e6a4277') in 0.065316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestTower_Red.prefab
-  artifactKey: Guid(e7775214e5f7b1f469df26ce7b30e009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestTower_Red.prefab using Guid(e7775214e5f7b1f469df26ce7b30e009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bace5f41f4ca3e8f23575b2603576ce8') in 0.034524 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007068 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suay\Documents\GitHub\Mob-Control-Replica\Mob Control Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suay\Documents\GitHub\Mob-Control-Replica\Mob Control Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1628ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1243ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.4 KB). Loaded Objects now: 3856.
+Memory consumption went from 134.0 MB to 133.9 MB.
+Total: 2.401100 ms (FindLiveObjects: 0.183000 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.051900 ms  DeleteObjects: 0.079900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

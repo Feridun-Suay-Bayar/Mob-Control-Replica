@@ -27,5 +27,7 @@ public class FriendlyMobColliderController : MonoBehaviour
         {
             ObjectPooling.Instance.SetPoolObject(transform.gameObject, 0);
         }
+        
     }
+   
 }

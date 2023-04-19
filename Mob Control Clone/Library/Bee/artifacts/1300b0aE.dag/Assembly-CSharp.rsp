@@ -325,9 +325,9 @@
 -r:"C:/Program Files/Unity 2021.3.14f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"C:/Users/Suay/Documents/GitHub/Mob Control Clone/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"C:/Users/Suay/Documents/GitHub/Mob Control Clone/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Users/Suay/Documents/GitHub/Mob Control Clone/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/Suay/Documents/GitHub/Mob-Control-Replica/Mob Control Clone/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/Suay/Documents/GitHub/Mob-Control-Replica/Mob Control Clone/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/Suay/Documents/GitHub/Mob-Control-Replica/Mob Control Clone/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -363,6 +363,7 @@
 "Assets/GameFolders/Scripts/Abstracts/Mover/IMover.cs"
 "Assets/GameFolders/Scripts/Concretes/Animations/PlayerAnimationController.cs"
 "Assets/GameFolders/Scripts/Concretes/Controller/FriendlyMobColliderController.cs"
+"Assets/GameFolders/Scripts/Concretes/Controller/GateControl.cs"
 "Assets/GameFolders/Scripts/Concretes/Controller/MobController.cs"
 "Assets/GameFolders/Scripts/Concretes/Controller/PlayerController.cs"
 "Assets/GameFolders/Scripts/Concretes/Controller/ShootController.cs"
@@ -373,6 +374,8 @@
 "Assets/GameFolders/Scripts/Concretes/Movement/Movement.cs"
 "Assets/GameFolders/Scripts/Concretes/Movement/WheelMovement.cs"
 "Assets/GameFolders/Scripts/Concretes/ObjectPool/ObjectPooling.cs"
+"Assets/GameFolders/Scripts/Concretes/Scriptable/GateSO.cs"
+"Assets/GameFolders/Scripts/Concretes/Scriptable/MobSO.cs"
 -langversion:9.0
 
 /deterministic
