@@ -19,13 +19,14 @@ namespace PlayerMove.Movements
             _direction = _direction.normalized;
             _transform.Translate(_direction * Time.deltaTime * speed,Space.World);
         }
-        public void MoveToLine(float speed, Transform transform)
+        public void MoveToLine(float speed, Transform transform, Vector3 lookDirection)
         {
             _direction = transform.position - _transform.position;
             _direction = new Vector3(0, 0, _direction.z);
             _direction = _direction.normalized;
             _transform.Translate(_direction * Time.deltaTime * speed, Space.World);
-            _transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+            _transform.rotation = Quaternion.Euler(lookDirection);
         }
+        
     }
 }

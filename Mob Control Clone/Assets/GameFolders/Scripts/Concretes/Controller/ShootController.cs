@@ -11,17 +11,19 @@ namespace PlayerMove.Controllers
 
         [SerializeField] float _maxShootDelay = 0.5f;
         [SerializeField] Transform _shootPoint;
+        [SerializeField] int _strongFriendMaxCount = 15;
+        private float _currentDelay;
+        public int FriendCount => _spawnController.StrongFriendCount;
+
         IInput _input;
         PlayerAnimationController _animationController;
         SpawnController _spawnController;
 
-        private float _currentDelay;
-        
         private void Start()
         {
             _input = GetComponent<IInput>();
             _animationController = GetComponentInChildren<PlayerAnimationController>();
-            _spawnController = new SpawnController(_shootPoint);
+            _spawnController = new SpawnController(_shootPoint, _strongFriendMaxCount);  
         }
 
         void Update()
@@ -34,9 +36,8 @@ namespace PlayerMove.Controllers
                 _currentDelay = 0;
                 _animationController.Shoot();
                 _spawnController.SpawnFriendMob();
+
             }
-
-
         }
     }
 }

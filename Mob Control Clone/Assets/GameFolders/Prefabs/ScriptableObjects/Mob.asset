@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Mob
   m_EditorClassIdentifier: 
   type: 1
-  maxHealth: 3
-  isDuplicated: 0
+  maxHealth: 2

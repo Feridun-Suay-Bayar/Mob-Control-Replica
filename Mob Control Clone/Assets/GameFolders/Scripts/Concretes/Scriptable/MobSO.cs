@@ -9,6 +9,5 @@ namespace PlayerMove.Scriptables
     {
         public int type;
         public int maxHealth;
-        public bool isDuplicated;
     }
 }
