@@ -9,16 +9,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4986374561011032510}
-  - component: {fileID: 6707455915592447422}
   - component: {fileID: 874727116}
   - component: {fileID: 874727114}
+  - component: {fileID: 6338894260661408970}
   m_Layer: 0
   m_Name: EnemyMob
   m_TagString: EnemyMob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4986374561011032510
 Transform:
   m_ObjectHideFlags: 0
@@ -36,19 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &6707455915592447422
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2116078632929808661}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.34786448
-  m_Center: {x: -0, y: 0.30786452, z: 0}
 --- !u!54 &874727116
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77,8 +64,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ee4ef2bcb3232b409b4f351d7dd0e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _mobSO: {fileID: 11400000, guid: ff9068179a0fbe043a7ed6e13b0525b0, type: 2}
   _enemyBase: {fileID: 8904171901343189840, guid: 2114ecdced4fad54aa5613e74f52b3f8, type: 3}
-  _speed: 10
+  _speed: 5
+--- !u!136 &6338894260661408970
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116078632929808661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25547993
+  m_Height: 1
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.26145512, z: 0}
 --- !u!1 &5004501160455413793
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +556,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4986374561011032510}
     m_Modifications:
+    - target: {fileID: 3309799191749230086, guid: 1caccb5c733bc9d45b7afcac171816ed, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3410588279970549870, guid: 1caccb5c733bc9d45b7afcac171816ed, type: 3}
       propertyPath: m_Name
       value: Smoke_Enemy
@@ -568,7 +574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3413352694276862142, guid: 1caccb5c733bc9d45b7afcac171816ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.164
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 3413352694276862142, guid: 1caccb5c733bc9d45b7afcac171816ed, type: 3}
       propertyPath: m_LocalPosition.z

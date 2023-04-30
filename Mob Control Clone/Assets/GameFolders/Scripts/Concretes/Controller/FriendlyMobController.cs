@@ -16,9 +16,10 @@ namespace PlayerMove.Controllers
         MobMover _mobMover;
         FriendlyMobColliderController _mobColliderController;
 
+        public float Speed => _speed;
         public MobSO MobSO => _mobSO;
         public bool IsDuplicated;
-        // Start is called before the first frame update
+
         void Start()
         {
             _enemyBase = GameObject.Find("EnemyBase");
@@ -26,7 +27,6 @@ namespace PlayerMove.Controllers
             _mobColliderController = GetComponent<FriendlyMobColliderController>();
         }
 
-        // Update is called once per frame
         void Update()
         {
             if (!_mobColliderController.OnLayerEnter)
@@ -41,12 +41,22 @@ namespace PlayerMove.Controllers
             {
                 StartCoroutine(MakeDuplicadeable());
             }
+            if (_mobColliderController.Destroy)
+            { 
+                ObjectPooling.Instance.SetPoolObject(transform.gameObject, _mobSO.type-1);
+                //Debug.Log(_particle.gameObject.name);
+                //StartCoroutine(DestroyObject());
+            }
         }
         private IEnumerator MakeDuplicadeable()
         {
             yield return new WaitForSeconds(0.75f);
             IsDuplicated = false;
         }
-
+        private IEnumerator DestroyObject()
+        {
+            yield return new WaitForSeconds(0.5f);
+            ObjectPooling.Instance.SetPoolObject(transform.gameObject, _mobSO.type-1);
+        }
     }
 }

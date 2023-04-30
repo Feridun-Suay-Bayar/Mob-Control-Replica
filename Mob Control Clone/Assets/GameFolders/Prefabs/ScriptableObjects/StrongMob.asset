@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: StrongMob
   m_EditorClassIdentifier: 
   type: 2
-  maxHealth: 4
+  maxHealth: 3

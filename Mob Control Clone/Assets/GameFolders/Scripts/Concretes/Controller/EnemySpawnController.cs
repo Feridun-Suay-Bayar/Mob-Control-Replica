@@ -6,16 +6,12 @@ namespace PlayerMove.Controllers
 {
     public class EnemySpawnController : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
+        [SerializeField] Transform _spawnPoint;
+        
+        public void SpawnEnemies(int index)
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            GameObject gameObject = ObjectPooling.Instance.GetPoolObject(index);
+            gameObject.transform.position = _spawnPoint.position;
         }
     }
 }

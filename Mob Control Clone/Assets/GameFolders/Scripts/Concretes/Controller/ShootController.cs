@@ -36,7 +36,6 @@ namespace PlayerMove.Controllers
                 _currentDelay = 0;
                 _animationController.Shoot();
                 _spawnController.SpawnFriendMob();
-
             }
         }
     }

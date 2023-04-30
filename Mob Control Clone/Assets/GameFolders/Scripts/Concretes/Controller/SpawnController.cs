@@ -37,6 +37,7 @@ namespace PlayerMove.Controllers
             gameObject.SetActive(true);
             gameObject.transform.rotation = Quaternion.identity;
             gameObject.transform.position = _transform.position;
+            gameObject.GetComponent<Rigidbody>().AddForce(Vector3.forward.normalized * 30000f * Time.fixedDeltaTime,ForceMode.Acceleration);
         }
     }
 }

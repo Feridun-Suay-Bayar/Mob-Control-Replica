@@ -446,9 +446,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 149224942036090786}
-  - component: {fileID: 843132137490906347}
   - component: {fileID: 9185198284201558505}
   - component: {fileID: 3777019207429376168}
+  - component: {fileID: 4858807638335836720}
   m_Layer: 0
   m_Name: StrongEnemyMob
   m_TagString: EnemyMob
@@ -472,20 +472,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &843132137490906347
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7833946134790314723}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5385979
-  m_Height: 1.4244518
-  m_Direction: 2
-  m_Center: {x: 0, y: 0.5303996, z: 0.009778023}
 --- !u!54 &9185198284201558505
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -514,8 +500,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ee4ef2bcb3232b409b4f351d7dd0e92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _mobSO: {fileID: 11400000, guid: 99c909a752edd294888e76670012f11a, type: 2}
   _enemyBase: {fileID: 8904171901343189840, guid: 2114ecdced4fad54aa5613e74f52b3f8, type: 3}
-  _speed: 10
+  _speed: 5
+--- !u!136 &4858807638335836720
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833946134790314723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.61672395
+  m_Height: 1.3883382
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.6226992, z: 0.07744509}
 --- !u!1 &8335570721974034323
 GameObject:
   m_ObjectHideFlags: 0
